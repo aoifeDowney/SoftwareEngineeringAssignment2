@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ModuleTest" project="my-app" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="nuigalway.app.ModuleTest" time="0.0">
-    <testcase name="shouldGetAndSetModuleName" classname="nuigalway.app.ModuleTest" time="0.0"/>
-    <testcase name="shouldGetAndSetStudentd" classname="nuigalway.app.ModuleTest" time="0.0"/>
-    <testcase name="shouldGetAndSetModuleCourses" classname="nuigalway.app.ModuleTest" time="0.0"/>
-    <testcase name="shouldGetAndSetModuleId" classname="nuigalway.app.ModuleTest" time="0.0"/>
-  </testsuite>
-</testrun>
