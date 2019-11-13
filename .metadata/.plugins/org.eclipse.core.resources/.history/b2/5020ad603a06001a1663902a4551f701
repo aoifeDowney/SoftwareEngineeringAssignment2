@@ -74,7 +74,7 @@ public class StudentTest {
 	    public void shouldGetAndSetModules()
 	    {
 	        final Student student = new Student();
-	        final ArrayList<Module> modules = new ArrayList<Module>();
+	        ArrayList<Module> modules = new ArrayList<Module>();
 	        
 	        student.setModRegistered(modules);
 	        
