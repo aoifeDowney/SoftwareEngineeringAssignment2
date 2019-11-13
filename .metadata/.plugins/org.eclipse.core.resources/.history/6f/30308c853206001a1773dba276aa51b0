@@ -31,19 +31,19 @@ public class Module {
 		this.id = id;
 	}
 
-	public ArrayList<Student> getStudents() {
+	public ArrayList<String> getStudents() {
 		return students;
 	}
 
-	public void setStudents(ArrayList<Student> students) {
+	public void setStudents(ArrayList<String> students) {
 		this.students = students;
 	}
 
-	public ArrayList<CourseProgramme> getCourses() {
+	public ArrayList<String> getCourses() {
 		return courses;
 	}
 
-	public void setCourses(ArrayList<CourseProgramme> courses) {
+	public void setCourses(ArrayList<String> courses) {
 		this.courses = courses;
 	}
 }
