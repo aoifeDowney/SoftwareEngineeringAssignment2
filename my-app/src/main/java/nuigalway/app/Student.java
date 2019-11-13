@@ -1,5 +1,6 @@
 package nuigalway.app;
 
+import java.util.ArrayList;
 
 public class Student {
 	
@@ -9,7 +10,7 @@ public class Student {
 	private int id;
 	private String username;
 	private String courses;
-	private String modRegistered;
+	private ArrayList<Module> modRegistered = new ArrayList<Module>();
 	
 	//Constructor
 	public Student() {
@@ -65,11 +66,11 @@ public class Student {
 		this.courses = courses;
 	}
 
-	public String getModRegistered() {
+	public ArrayList<Module> getModRegistered() {
 		return modRegistered;
 	}
 
-	public void setModRegistered(String modRegistered) {
+	public void setModRegistered(ArrayList<Module> modRegistered) {
 		this.modRegistered = modRegistered;
 	}
 }
