@@ -15,7 +15,7 @@ public class StudentTest {
 	        
 	        student.setName("Aoife");
 	        
-	        assertEquals("Ciara", student.getName());	        
+	        assertEquals("Aoife", student.getName());	        
 	    }
 	 
 	 @Test
