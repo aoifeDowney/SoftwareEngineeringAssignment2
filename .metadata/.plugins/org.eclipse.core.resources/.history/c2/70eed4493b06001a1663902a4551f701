@@ -29,7 +29,7 @@ public class ModuleTest {
 	    }
 	 
 	 @Test
-	    public void shouldGetAndSetModuled()
+	    public void shouldGetAndSetStudentd()
 	    {
 	        final Module module = new Module();
 	        final ArrayList<Student> students = new ArrayList<Student>();

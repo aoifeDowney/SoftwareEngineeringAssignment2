@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CourseProgrammeTest" project="my-app" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="nuigalway.app.CourseProgrammeTest" time="0.0">
+    <testcase name="shouldGetAndSetCourseStudents" classname="nuigalway.app.CourseProgrammeTest" time="0.0"/>
+    <testcase name="shouldGetAndSetCourseModules" classname="nuigalway.app.CourseProgrammeTest" time="0.0"/>
+  </testsuite>
+</testrun>
