@@ -1,0 +1,21 @@
+package nuigalway.app;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+
+import org.junit.Test;
+
+public class CourseProgrammeTest {
+
+	@Test
+    public void shouldGetAndSetCourseStudents()
+    {
+        final CourseProgramme course = new CourseProgramme();
+        final ArrayList<Student> students = new ArrayList<Student>();
+        
+        course.setStudents(students);
+        
+        assertEquals(students, course.getStudents());	        
+    }	
+}

@@ -1,0 +1,38 @@
+package nuigalway.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StudentTest {
+	
+	 @Test
+	    public void shouldGetAndSetStudentName()
+	    {
+	        final Student student = new Student();
+	        
+	        student.setName("Aoife");
+	        
+	        assertEquals("Aoife", student.getName());	        
+	    }
+	 
+	 @Test
+	    public void shouldGetAndSetStudentAge()
+	    {
+	        final Student student = new Student();
+	        
+	        student.setAge(21);
+	        
+	        assertEquals(21, student.getAge());	        
+	    }
+	 
+	 @Test
+	    public void shouldGetAndSetStudentDOB()
+	    {
+	        final Student student = new Student();
+	        
+	        student.setDob("21/07/1998");
+	        
+	        assertEquals("21/07/1998", student.getDob());       
+	    }
+}

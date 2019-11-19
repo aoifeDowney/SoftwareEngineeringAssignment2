@@ -1,0 +1,42 @@
+package nuigalway.app;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+
+import org.junit.Test;
+
+public class ModuleTest {
+	
+	 @Test
+	    public void shouldGetAndSetModuleName()
+	    {
+	        final Module module = new Module();
+	        
+	        module.setName("Software Eng");
+	        
+	        assertEquals("Software Eng", module.getName());	        
+	    }
+	 
+	 @Test
+	    public void shouldGetAndSetModuleId()
+	    {
+	        final Module module = new Module();
+	        
+	        module.setId("CT417");
+	        
+	        assertEquals("CT417", module.getId());	        
+	    }
+	 
+	 @Test
+	    public void shouldGetAndSetStudentd()
+	    {
+	        final Module module = new Module();
+	        final ArrayList<Student> students = new ArrayList<Student>();
+	        
+	        module.setStudents(students);
+	        
+	        assertEquals(students, module.getStudents());	        
+	    }	 
+
+}

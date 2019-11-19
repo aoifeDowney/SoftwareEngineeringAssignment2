@@ -1,0 +1,20 @@
+package nuigalway.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StudentTest {
+	
+	 @Test
+	    public void shouldGetStudentName()
+	    {
+	        final Student student = new Student();
+	        
+	        student.setName("Aoife");
+	        
+	        assertEquals("Aoife", student.getName());
+	        
+	    }
+
+}
